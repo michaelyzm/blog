@@ -4,17 +4,17 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: 奋进的面鱼
 subtitle:
 description:
-author: John Doe
+author: Noodle Fish
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
+url: http://noodlefish.net
 baseurl:
 permalink: pretty
 
@@ -78,7 +78,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "架构, 算法, 安卓, 人工智能, 数据挖掘, Architecture, Algorithm, Android, AI, Data mining"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -361,8 +361,8 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
